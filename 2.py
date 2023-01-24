@@ -51,7 +51,7 @@ else:
     print("Вы играете с ботом")
 print("На столе лежит 221 конфета")
 print("Бросаем жребий кто ходит первым")
-value = int(125)
+value = int(221)
 flag = randint(0,2) # флаг очередности
 if flag:
     print(f"Первый ходит {player1}")
